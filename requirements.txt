@@ -1,2 +1,4 @@
 selenium
 pytest==3.6.3
+allure-pytest>=2.5.1
+webdriver-manager==1.7
