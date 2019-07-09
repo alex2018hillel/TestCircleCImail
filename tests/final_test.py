@@ -1,5 +1,7 @@
 import unittest
 import configparser
+import pytest
+
 from utils.login_page import Login_page
 from utils.create_page import Create_mail
 from selenium import webdriver
@@ -52,4 +54,4 @@ class final_test(unittest.TestCase):
         self.driver.quit()
 
 if __name__ == "__main__":
-        unittest.main()
+        pytest.main()
