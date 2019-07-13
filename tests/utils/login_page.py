@@ -5,7 +5,7 @@ class Login_page:
     password_field = "//*[@id='id-p']"
     button_login = "//*[@type='submit']"
     #user_mail = "//*[@class='login-button__user']"
-    user_mail = "//*[@class='account__email']"
+    user_mail = "//*[@id='id-user-email']"
 
 
 
