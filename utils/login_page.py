@@ -5,7 +5,7 @@ class Login_page:
     password_field = "//*[@id='id-p']"
     button_login = "//*[@type='submit']"
     #user_mail = "//*[@id='id-user-email']"
-    user_mail = "//*[@class='login-button_user']"
+    user_mail = "//p[contains(text(),'alex2019hillel@ukr.net')]"
 
 
 
