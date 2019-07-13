@@ -33,9 +33,15 @@ class final_test(unittest.TestCase):
         button_login = wdriver.find_element_by_xpath(Login_page.button_login)
         button_login.click()
         wdriver.implicitly_wait(10)
-        user_mail = wdriver.find_element_by_xpath(Login_page.user_mail)
-        print(user_mail.text)
-        assert user_mail.text == Create_mail.expected_name
+        #user_mail = wdriver.find_element_by_xpath(Login_page.user_mail)
+        #user_mail = Window.getTitle()
+        #print(user_mail.text)
+        #assert user_mail.text == Create_mail.expected_name
+        #try:
+        #    element = wait.until(EC.title_contains("Входящие"))
+        #finally:
+        wdriver.implicitly_wait(4)
+        assert "Створи емейл" in wdriver.title
 
         # Create e-mail
         wdriver.find_element_by_xpath(Create_mail.create_button).click()
