@@ -44,12 +44,12 @@ class final_test(unittest.TestCase):
         assert "Створи емейл" in wdriver.title
 
         # Create e-mail
-        wdriver.find_element_by_xpath(Create_mail.create_button).click()
-        wdriver.find_element_by_xpath(Create_mail.fild_input).send_keys(Create_mail.expected_name)
-        wdriver.find_element_by_xpath(Create_mail.fild_subject).send_keys(id)
-        wdriver.find_element_by_xpath(Create_mail.submit_button).click()
-        wdriver.find_element_by_xpath("//a[@id='0']/span[4]").click()
-        wdriver.implicitly_wait(10)
+        #wdriver.find_element_by_xpath(Create_mail.create_button).click()
+        #wdriver.find_element_by_xpath(Create_mail.fild_input).send_keys(Create_mail.expected_name)
+        #wdriver.find_element_by_xpath(Create_mail.fild_subject).send_keys(id)
+        #wdriver.find_element_by_xpath(Create_mail.submit_button).click()
+        #wdriver.find_element_by_xpath("//a[@id='0']/span[4]").click()
+        #wdriver.implicitly_wait(10)
 
         # Find e-mail
         elem = wdriver.find_elements_by_xpath("//*[text()='ID_115']")[0]
