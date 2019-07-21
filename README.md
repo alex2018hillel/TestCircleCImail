@@ -1,0 +1,13 @@
+# To run tests
+* clone the project 
+```git clone```
+* open the project in PyCharm
+* [configure PyCharm to use pytest as default test runner](https://stackoverflow.com/a/6397315/1562282)
+* run command # pytest -v 
+* in commandline
+
+
+# run tests
+![Alt text](Doc/2019-07-14_1120.png?raw=true "HTML Report")
+# Allure Report
+![Alt text](Doc/2019-07-14_1118.png?raw=true "Allure Report")
