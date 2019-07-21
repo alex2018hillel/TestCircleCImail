@@ -3,8 +3,8 @@
 ```git clone```
 * open the project in PyCharm
 * [configure PyCharm to use pytest as default test runner](https://stackoverflow.com/a/6397315/1562282)
-* run command # pytest -v 
-* in commandline
+# Build status
+[![CircleCI](https://circleci.com/gh/alex2018hillel/TestCircleCImail.svg?style=svg)](https://circleci.com/gh/alex2018hillel/TestCircleCImail)
 
 
 # run tests
